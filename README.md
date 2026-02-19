@@ -61,6 +61,7 @@ nmap -sn 192.168.1.0/24
 nmap -sS -p 1-1000 <IP>
 ```
 <img width="518" height="213" alt="image" src="https://github.com/user-attachments/assets/f9d34dd3-99a1-498a-974b-6b63d3eb343e" />
+
 ### 2.3 Service version and system identification scanning
 ```
 nmap -sV -O <IP>
