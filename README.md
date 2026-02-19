@@ -48,6 +48,7 @@ run
 <img width="524" height="35" alt="image" src="https://github.com/user-attachments/assets/e4155220-4ab5-460c-8cab-a9668e34fc76" />
 
 - [渗透测试RECON-NG介绍](https://blog.csdn.net/weixin_42952508/article/details/124443273)
+
 ## 2 Nmap
 ### 2.1 Host alive scan
 ```
@@ -88,3 +89,24 @@ sudo hping3 -S -p 80 --flood <IP>      //
 <img width="623" height="96" alt="image" src="https://github.com/user-attachments/assets/68b35999-021e-42de-8f34-ebda382cd602" />
 
 - [hping3全参数详细教程](https://blog.csdn.net/qq_24305079/article/details/144963291)
+
+## 4 DNSRecon
+### 4.1 subdomain enumeration
+```
+sudo dnsrecon -d example.com -D /usr/share/dnsrecon/namelist.txt -t brt
+```
+<img width="689" height="211" alt="image" src="https://github.com/user-attachments/assets/a58340e7-7875-4c23-8343-0126d863b638" />
+
+### 4.2 -b
+```
+dnsrecon -d baidu.com -b      //Perform Bing enumeration using standard enumeration.
+```
+<img width="501" height="152" alt="image" src="https://github.com/user-attachments/assets/01138a9a-f9fc-4012-bd1a-e5804e294b6a" />
+
+### 4.3 -y 
+```
+dnsrecon -d baidu.com -y      //Execute Yandex enumeration using standard enumeration
+```
+<img width="496" height="129" alt="image" src="https://github.com/user-attachments/assets/9de6f78c-b7dd-45cc-965c-9e47509adddd" />
+
+- [Dnsrecon全参数详细教程](https://www.bilibili.com/read/cv40056693/?opus_fallback=1)
