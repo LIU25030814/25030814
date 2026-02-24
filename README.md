@@ -1,4 +1,4 @@
-# 25030814
+# 25030814# 25030814
 2026/2/14
 ## 1.Recon-ng
 >Due to the fact that **Rrcon-ng V5** does not come with built-in modules, all functions need to be downloaded from the **marketplace**.
@@ -6,13 +6,13 @@
 ```
 marketplace install all
 ```
-<img width="551" height="95" alt="image" src="https://github.com/user-attachments/assets/39a0fb1d-0cfd-4447-8539-5fccac76f85a" />
+<img img width=="551" height=="95" alt=="image" src=="https://github.com/user-attachments/assets/39a0fb1d-0cfd-4447-8539-5fccac76f85a" />
 
 ### 1.1 Collect subdomains
 ```
 modules search bing
 ```
-<img width="490" height="163" alt="image" src="https://github.com/user-attachments/assets/d02bf7e4-c091-4470-86bf-660e126d9ad9" />
+<img img width=="490" height=="163" alt=="image" src=="https://github.com/user-attachments/assets/d02bf7e4-c091-4470-86bf-660e126d9ad9" />
 
 ```
 module load <Module Name>
@@ -23,7 +23,7 @@ option set SOURCE example.com
 ```
 run
 ```
-<img width="628" height="144" alt="image" src="https://github.com/user-attachments/assets/51c9c1bc-cff6-48d7-a998-4fff59511260" />
+<img img width=="628" height=="144" alt=="image" src=="https://github.com/user-attachments/assets/51c9c1bc-cff6-48d7-a998-4fff59511260" />
 
 ### 1.2 certificate_transparency
 ```
@@ -36,7 +36,7 @@ option set SOURCE example.com
 run
 ```
 
-<img width="661" height="126" alt="image" src="https://github.com/user-attachments/assets/5cfebfd8-216f-4cf2-9e14-b3b60b9e2f93" />
+<img img width=="661" height=="126" alt=="image" src=="https://github.com/user-attachments/assets/5cfebfd8-216f-4cf2-9e14-b3b60b9e2f93" />
 
 ### 1.3 DNS resolution
 ```
@@ -45,7 +45,7 @@ module load recon/hosts-hosts/resolve
 ```
 run
 ```
-<img width="524" height="35" alt="image" src="https://github.com/user-attachments/assets/e4155220-4ab5-460c-8cab-a9668e34fc76" />
+<img img width=="524" height=="35" alt=="image" src=="https://github.com/user-attachments/assets/e4155220-4ab5-460c-8cab-a9668e34fc76" />
 
 - [渗透测试RECON-NG介绍](https://blog.csdn.net/weixin_42952508/article/details/124443273)
 
@@ -54,7 +54,7 @@ run
 ```
 nmap -sn 192.168.1.0/24
 ```
-<img width="568" height="364" alt="image" src="https://github.com/user-attachments/assets/be9a152b-60c7-4cc0-8763-22ebbe4d8f02" />
+<img img width=="568" height=="364" alt=="image" src=="https://github.com/user-attachments/assets/be9a152b-60c7-4cc0-8763-22ebbe4d8f02" />
 
 ### 2.2 Common port scanning
 ```
@@ -113,6 +113,26 @@ dnsrecon -d baidu.com -y      //Execute Yandex enumeration using standard enumer
 
 
 ### 5 Powersploit
+## 5.1 Invoke-Portscan
+>The command needs to be executed in **PowerShell**.
+```
+. ./Invoke-Portscan.ps1       //Load module
+```
+```
+Invoke-Portscan -Hosts 127.0.0.1  
+```
+<img width="675" height="410" alt="image" src="https://github.com/user-attachments/assets/ec37fe76-7cd7-4fb7-b8f9-203a1b5b753c" />
+
+## 5.2 Get-Keystrokes
+```
+. ./Get-Keystrokes.ps1    //Load module
+```
+
+```
+Get-Keystrokes -LogPath C:\temp\keylog.txt    //The target machine executes the operation and records it in keylog.txt
+```
+<img width="714" height="567" alt="image" src="https://github.com/user-attachments/assets/8c3c4fbe-7dd9-4802-91bb-7fac302e8f6b" />
+
 ### 6 Webshells
 ### 7 Weevely
 ### 8 Dns2tcp
