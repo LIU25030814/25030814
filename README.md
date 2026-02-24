@@ -110,3 +110,10 @@ dnsrecon -d baidu.com -y      //Execute Yandex enumeration using standard enumer
 <img width="496" height="129" alt="image" src="https://github.com/user-attachments/assets/9de6f78c-b7dd-45cc-965c-9e47509adddd" />
 
 - [Dnsrecon全参数详细教程](https://www.bilibili.com/read/cv40056693/?opus_fallback=1)
+
+
+### 5 Powersploit
+### 6 Webshells
+### 7 Weevely
+### 8 Dns2tcp
+### 9 Cryptcat
