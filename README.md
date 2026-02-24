@@ -133,6 +133,10 @@ Get-Keystrokes -LogPath C:\temp\keylog.txt    //The target machine executes the 
 ```
 <img width="714" height="567" alt="image" src="https://github.com/user-attachments/assets/8c3c4fbe-7dd9-4802-91bb-7fac302e8f6b" />
 
+- [Powersploit的安装及脚本攻击实战](https://www.cnblogs.com/zhengna/p/12186118.html)
+
+## 5.3
+
 ### 6 Webshells
 ### 7 Weevely
 ### 8 Dns2tcp
