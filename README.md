@@ -45,7 +45,7 @@ module load recon/hosts-hosts/resolve
 ```
 run
 ```
-<img img width=="524" height=="35" alt=="image" src=="https://github.com/user-attachments/assets/e4155220-4ab5-460c-8cab-a9668e34fc76" />
+<img width="524" height="35" alt="image" src="https://github.com/user-attachments/assets/e4155220-4ab5-460c-8cab-a9668e34fc76" />
 
 - [渗透测试RECON-NG介绍](https://blog.csdn.net/weixin_42952508/article/details/124443273)
 
@@ -54,7 +54,7 @@ run
 ```
 nmap -sn 192.168.1.0/24
 ```
-<img img width=="568" height=="364" alt=="image" src=="https://github.com/user-attachments/assets/be9a152b-60c7-4cc0-8763-22ebbe4d8f02" />
+<img width="568" height="364" alt="image" src="https://github.com/user-attachments/assets/be9a152b-60c7-4cc0-8763-22ebbe4d8f02" />
 
 ### 2.2 Common port scanning
 ```
