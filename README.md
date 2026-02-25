@@ -6,13 +6,13 @@
 ```
 marketplace install all
 ```
-<img img width=="551" height=="95" alt=="image" src=="https://github.com/user-attachments/assets/39a0fb1d-0cfd-4447-8539-5fccac76f85a" />
+<img width="551" height="95" alt="image" src="https://github.com/user-attachments/assets/39a0fb1d-0cfd-4447-8539-5fccac76f85a" />
 
 ### 1.1 Collect subdomains
 ```
 modules search bing
 ```
-<img img width=="490" height=="163" alt=="image" src=="https://github.com/user-attachments/assets/d02bf7e4-c091-4470-86bf-660e126d9ad9" />
+<img width="490" height="163" alt="image" src="https://github.com/user-attachments/assets/d02bf7e4-c091-4470-86bf-660e126d9ad9" />
 
 ```
 module load <Module Name>
@@ -23,7 +23,7 @@ option set SOURCE example.com
 ```
 run
 ```
-<img img width=="628" height=="144" alt=="image" src=="https://github.com/user-attachments/assets/51c9c1bc-cff6-48d7-a998-4fff59511260" />
+<img width="628" height="144" alt="image" src="https://github.com/user-attachments/assets/51c9c1bc-cff6-48d7-a998-4fff59511260" />
 
 ### 1.2 certificate_transparency
 ```
@@ -36,7 +36,7 @@ option set SOURCE example.com
 run
 ```
 
-<img img img width=="661" height=="126" alt=="image" src=="https://github.com/user-attachments/assets/5cfebfd8-216f-4cf2-9e14-b3b60b9e2f93" />
+<img width="661" height="126" alt="image" src="https://github.com/user-attachments/assets/5cfebfd8-216f-4cf2-9e14-b3b60b9e2f93" />
 
 ### 1.3 DNS resolution
 ```
