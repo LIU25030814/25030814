@@ -1,18 +1,18 @@
-# 25030814# 25030814
+## 25030814# 25030814
 2026/2/14
 ## 1.Recon-ng
->Due to the fact that **Rrcon-ng V5** does not come with built-in modules, all functions need to be downloaded from the **marketplace**.
+>Due to the fact that Due to the fact that **Rrcon-ng V5** does not come with built-in modules, all functions need to be downloaded from the  does not come with built-in modules, all functions need to be downloaded from the **marketplace**..
 
 ```
 marketplace install all
 ```
-<img width="551" height="95" alt="image" src="https://github.com/user-attachments/assets/39a0fb1d-0cfd-4447-8539-5fccac76f85a" />
+<img img width=="551" height=="95" alt=="image" src=="https://github.com/user-attachments/assets/39a0fb1d-0cfd-4447-8539-5fccac76f85a" />
 
 ### 1.1 Collect subdomains
 ```
 modules search bing
 ```
-<img width="490" height="163" alt="image" src="https://github.com/user-attachments/assets/d02bf7e4-c091-4470-86bf-660e126d9ad9" />
+<img img width=="490" height=="163" alt=="image" src=="https://github.com/user-attachments/assets/d02bf7e4-c091-4470-86bf-660e126d9ad9" />
 
 ```
 module load <Module Name>
@@ -23,7 +23,7 @@ option set SOURCE example.com
 ```
 run
 ```
-<img width="628" height="144" alt="image" src="https://github.com/user-attachments/assets/51c9c1bc-cff6-48d7-a998-4fff59511260" />
+<img img width=="628" height=="144" alt=="image" src=="https://github.com/user-attachments/assets/51c9c1bc-cff6-48d7-a998-4fff59511260" />
 
 ### 1.2 certificate_transparency
 ```
@@ -36,7 +36,7 @@ option set SOURCE example.com
 run
 ```
 
-<img img width="661" height="126" alt="image" src="https://github.com/user-attachments/assets/5cfebfd8-216f-4cf2-9e14-b3b60b9e2f93" />
+<img img img width=="661" height=="126" alt=="image" src=="https://github.com/user-attachments/assets/5cfebfd8-216f-4cf2-9e14-b3b60b9e2f93" />
 
 ### 1.3 DNS resolution
 ```
@@ -155,6 +155,21 @@ run
 <img width="828" height="279" alt="image" src="https://github.com/user-attachments/assets/d20cdb51-b512-4f97-b7ed-ac99e588fe6d" />
 
 ### 6 Webshells
+## 6.1 Behinder
+> Github：https://github.com/rebeyond/Behinder
+> Ice Scorpion "is a dynamic binary encryption website management client, which emerged due to the increasing number of webshells based on traffic encryption.
+The main functions are: basic information, command execution, virtual terminal, file management, Socks proxy, bounce shell, database management, custom code, etc. The functions are very powerful.
+<img width="1820" height="954" alt="image" src="https://github.com/user-attachments/assets/f10ea8d2-588a-489b-a00b-07cb6a10eb57" />
+
 ### 7 Weevely
+<img width="651" height="243" alt="image" src="https://github.com/user-attachments/assets/ebd16283-c5fa-43dc-b4c7-9b7fdcd31ec8" />
+
+```
+weevely generate <pd> <fn>  //Generate a shell with password 'pd' and file name 'fn'
+```
+<img width="1023" height="168" alt="image" src="https://github.com/user-attachments/assets/31e9f47b-6b3c-432b-9fe1-294ed9df4a1d" />
+
+- [【学习分享】kali下的weevely小工具的使用](https://www.bilibili.com/video/BV1VE411P7KC/?spm_id_from=..search-card.all.click&vd_source=89914d17e8560abebdbcebba80dbc8ee)
+- 
 ### 8 Dns2tcp
 ### 9 Cryptcat
