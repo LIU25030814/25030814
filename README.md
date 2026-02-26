@@ -1,4 +1,4 @@
-<img width="338" height="119" alt="image" src="https://github.com/user-attachments/assets/a6307de5-322d-4418-a32c-80d87086ad50" />## 25030814# 25030814
+# TMS6064 – Assignment 1
 2026/2/14
 > This project is for educational purposes only. All testing was performed in a ontrolled environment or on authorized targets.
 ## 1.Recon-ng
@@ -198,8 +198,11 @@ listening port
 ```
 cryptact -l -p 4444 -v
 ```
+<img width="338" height="119" alt="image" src="https://github.com/user-attachments/assets/a6307de5-322d-4418-a32c-80d87086ad50" />
 <img width="338" height="119" alt="image" src="https://github.com/user-attachments/assets/fc9732a3-3e7b-45a3-bbe4-d83879be3c93" />
+
 >Due to the inability to obtain the corresponding resource version, the implementation cannot proceed
+
 <img width="1065" height="144" alt="image" src="https://github.com/user-attachments/assets/d38b1b13-169f-4842-b74f-98caa7d9623a" />
 
 > This is an encrypted version of Netcat, so traffic is encrypted by default and can listen to ports, bounce shells, and file transfers.
