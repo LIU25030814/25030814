@@ -1,7 +1,8 @@
 ## 25030814# 25030814
 2026/2/14
+> This project is for educational purposes only. All testing was performed in a ontrolled environment or on authorized targets.
 ## 1.Recon-ng
->Due to the fact that Due to the fact that **Rrcon-ng V5** does not come with built-in modules, all functions need to be downloaded from the  does not come with built-in modules, all functions need to be downloaded from the **marketplace**..
+> Due to the fact that Due to the fact that **Rrcon-ng V5** does not come with built-in modules, all functions need to be downloaded from the  does not come with built-in modules, all functions need to be downloaded from the **marketplace**..
 
 ```
 marketplace install all
