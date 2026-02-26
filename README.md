@@ -1,4 +1,4 @@
-## 25030814# 25030814
+<img width="338" height="119" alt="image" src="https://github.com/user-attachments/assets/a6307de5-322d-4418-a32c-80d87086ad50" />## 25030814# 25030814
 2026/2/14
 > This project is for educational purposes only. All testing was performed in a ontrolled environment or on authorized targets.
 ## 1.Recon-ng
@@ -188,4 +188,17 @@ weevely generate <pd> <fn>  //Generate a shell with password 'pd' and file name 
 ### 8 Dns2tcp
 > This is a tunneling tool based on the DNS protocol, very covert, with traffic like normal domain name resolution that can penetrate internal network isolation; However, the speed is slow and requires one's own domain name and server
 ### 9 Cryptcat
+Download cryptact
+```
+sudo apt install cryptact -y
+```
+<img width="390" height="144" alt="image" src="https://github.com/user-attachments/assets/3dea5051-6697-4270-8680-b3cf734ee8de" />
+
+listening port
+```
+cryptact -l -p 4444 -v
+```
+<img width="338" height="119" alt="image" src="https://github.com/user-attachments/assets/fc9732a3-3e7b-45a3-bbe4-d83879be3c93" />
+
 > This is an encrypted version of Netcat, so traffic is encrypted by default and can listen to ports, bounce shells, and file transfers.
+- [使用CryptCat获取系统Shell的详细指南](https://edu.51cto.com/article/note/19318.html)
