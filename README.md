@@ -199,7 +199,6 @@ listening port
 cryptact -l -p 4444 -v
 ```
 <img width="338" height="119" alt="image" src="https://github.com/user-attachments/assets/a6307de5-322d-4418-a32c-80d87086ad50" />
-<img width="338" height="119" alt="image" src="https://github.com/user-attachments/assets/fc9732a3-3e7b-45a3-bbe4-d83879be3c93" />
 
 >Due to the inability to obtain the corresponding resource version, the implementation cannot proceed
 
