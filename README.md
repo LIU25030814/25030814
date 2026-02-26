@@ -181,10 +181,11 @@ weevely generate <pd> <fn>  //Generate a shell with password 'pd' and file name 
 ```
 <img width="1023" height="168" alt="image" src="https://github.com/user-attachments/assets/31e9f47b-6b3c-432b-9fe1-294ed9df4a1d" />
 
-> This is an advanced webshell specifically designed for PHP, which includes features such as class terminal interaction, file management, port scanning, and bounce shell. Compared to regular webshells, it has stronger and more hidden functions
+> This is an advanced webshell specifically designed for PHP, which includes features such as class terminal interaction, file management, port scanning, and bounce shell. Compared to regular webshells, it has stronger and more hidden functions.
 
 - [【学习分享】kali下的weevely小工具的使用](https://www.bilibili.com/video/BV1VE411P7KC/?spm_id_from=..search-card.all.click&vd_source=89914d17e8560abebdbcebba80dbc8ee)
 
 ### 8 Dns2tcp
-
+> This is a tunneling tool based on the DNS protocol, very covert, with traffic like normal domain name resolution that can penetrate internal network isolation; However, the speed is slow and requires one's own domain name and server
 ### 9 Cryptcat
+> This is an encrypted version of Netcat, so traffic is encrypted by default and can listen to ports, bounce shells, and file transfers.
