@@ -199,6 +199,8 @@ listening port
 cryptact -l -p 4444 -v
 ```
 <img width="338" height="119" alt="image" src="https://github.com/user-attachments/assets/fc9732a3-3e7b-45a3-bbe4-d83879be3c93" />
+>Due to the inability to obtain the corresponding resource version, the implementation cannot proceed
+<img width="1065" height="144" alt="image" src="https://github.com/user-attachments/assets/d38b1b13-169f-4842-b74f-98caa7d9623a" />
 
 > This is an encrypted version of Netcat, so traffic is encrypted by default and can listen to ports, bounce shells, and file transfers.
 - [使用CryptCat获取系统Shell的详细指南](https://edu.51cto.com/article/note/19318.html)
